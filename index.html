@@ -2,9 +2,71 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Моя тестовая страница</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <title>Зоомагазин "Bullfrog" - всё для содержания экзотических животных</title>
+    <style>
+      .dropbtn {
+          background-color: #4CAF50;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+      }
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+      }
+      .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+      .dropdown-content a:hover {background-color: #ddd;}
+      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>
   </head>
   <body>
-    <img src="" alt="Моё тестовое изображение">
+  <p align="center"><img src="images/logo.png" alt="Логотип сайта" width="100" height="100" align="left">Телефон: +7(XXX)XXX-XX-XX Ежедневно с 10:00 до 20:00</p>
+    <ol class="hr" align="center">
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">Животные</button>
+          <div class="dropdown-content">
+            <a href="#">Нет в наличии</a>
+          </div>
+        </div>    
+      </li>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">Оборудование</button>
+          <div class="dropdown-content">
+            <a href="#">Нет в наличии</a>
+          </div>
+        </div>    
+      </li>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">Корма и добавки</button>
+          <div class="dropdown-content">
+            <a href="#">Кормовые объекты</a>
+            <a href="#">Витамины</a>
+            <a href="#">Кальций</a>
+          </div>
+        </div>  
+      </li>
+    </ol>
+    <br clear="all">
+    <h1 align="center">Bullfrog - зоомагазин товаров для экзотических животных</h1>
+    <p align="center">Живые и замороженные корма в Тамбове</p>
   </body>
 </html> 
